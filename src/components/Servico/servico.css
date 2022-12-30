@@ -1,0 +1,143 @@
+#servico{
+    margin-top: 50px;
+}
+.container-servico {
+    width: 100%;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-servico {
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.container-servico h1 {
+    font-family: 'Oswald';
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.h1-servico{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    font-family: 'Red Hat Display';
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 50px;
+    color:#000;
+    width: 600px;
+    height: 140px;
+    background-image: url(../../assets/servico.png);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.icons-servico {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 80px; 
+}
+
+.icon-servico {
+    padding: 50px;
+}
+
+.icon-servico img{
+    width: 150px;
+}
+
+.p-servico {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #000;
+    font-family: 'Roboto';
+    letter-spacing: 1.2px;
+    font-size: 0.8rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+.h2-servico{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #000;
+    font-family: 'Roboto';
+    letter-spacing: 1.2px;
+    font-size: 0.8rem;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+@media (max-width: 1280px) {
+    .container-servico {
+        height: fit-content;
+        
+    }
+    .text-sobre {
+        font-size: 1.2rem;
+        width: 80%;
+        line-height: 28px;
+        
+    }
+    .icons-servico{
+        padding-bottom: 30px;
+    }
+    .icon-servico {
+        padding: 10px;
+    }
+    .icon-servico img {
+        width: 90px;
+        height: 90px;
+    }
+   
+}
+
+@media (max-width: 700px) {
+    .container-servico {
+        height: fit-content;
+        
+    }
+    .h1-servico{
+        background-image: url(../../assets/servico-mobile.png);
+        background-size: 274px auto;
+        background-position: 100%;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 100px;
+    }
+    .text-sobre {
+        width: 90%;
+    }
+    .text-sobre p{
+        font-size: 1rem;
+    }
+    .icons-servico {
+        padding: 25px;
+        margin-top: -50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .icon-servico img {
+        width: 90px;
+        height: 90px;
+    }
+}

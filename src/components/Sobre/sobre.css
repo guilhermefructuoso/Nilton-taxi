@@ -1,0 +1,125 @@
+#sobre{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.content-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 50%;
+    height: 653px;
+    background-color: #263238;
+    border-radius: 10px;
+}
+
+.p-sobre{
+    font-family: 'Montserrat';
+    color: #fff;
+    width: 811px;
+    height: 332px;
+    font-size: 1.5rem;
+}
+
+.h1-sobre{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    font-family: 'Red Hat Display';
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 50px;
+    color:#000;
+    width: 600px;
+    height: 180px;
+    background-image: url(../../assets/sobrenos.png);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    margin-right: -25%;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon p{
+    text-transform: uppercase;
+}
+
+
+
+@media(max-width: 1600px){
+    
+    .content-left{
+        margin-top: 10px;
+        
+    }
+    .content-left p{
+        font-size: 0.9rem;
+        margin-top: 15px;
+        margin-left: 5%;
+    }
+}
+
+@media(max-width: 700px){
+    #sobre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .content-left{
+        width: 70%;
+        height: auto;
+        margin-top: 0px;
+    }
+
+    .h1-sobre h1{
+        font-size: 1.2rem;
+    }
+
+    .h1-sobre img{
+        width: 100px;
+    }
+    .p-sobre p{
+        font-size: 0.7rem;
+        margin-top: 25px;
+        width: 200px;
+    }
+
+    .h1-sobre{
+        background-image: url(../../assets/sobre-mobile.png);
+        background-size: 274px auto;
+        background-position: 100%;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 100px;
+    }
+
+    .icons{
+        margin-right: -38%;
+    }
+
+    .icons img{
+        width: 50px;
+        
+    }
+
+    .icon p{
+        font-size: 0.7rem;
+    }
+ 
+}

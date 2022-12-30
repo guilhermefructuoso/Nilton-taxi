@@ -1,0 +1,54 @@
+#destinos{
+   margin-bottom: 50px;
+}
+
+.container-carrossel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: #FFB800;
+    position: relative;
+}
+
+.title{
+    margin-bottom: 20px;
+}
+
+.title h1{
+    font-family: 'Red Hat Display';
+    text-transform: uppercase;
+}
+
+
+.label{
+    color: #fff;
+    font-family: 'Red Hat Display';
+    text-transform: uppercase;
+    color: #000;
+    position: relative;
+  
+}
+
+
+.label label{
+    color:#000;
+    text-transform: none;
+    font-family: 'Red Hat Display';
+    margin-top: 5px;
+}
+
+.foto img{
+    width: 100%;
+    height: auto;
+    
+}

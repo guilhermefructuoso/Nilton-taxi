@@ -1,0 +1,138 @@
+#home{
+    width: 100%;
+    height: auto;
+    background-color: #F5F5F5;
+}
+
+.img-home img{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+
+.h1-home{
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    margin: 300px auto;
+    margin-left: 10%;
+    font-family: 'Red Hat Display';
+    font-weight: bolder;
+    font-size: 2rem;
+    width: 530px;
+}
+
+.home-label{
+   margin-top: 50px;
+   width: 100%; 
+}
+
+.home-label label{
+    font-size: 1.5rem;
+}
+
+.btn-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 50px;
+    border: none;
+    background-color: #263238;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+
+.btn-home a{
+    font-family: 'Red Hat Display';
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #FFB800;
+}
+
+.container-home{
+    display: flex;
+    flex-direction: row;
+}
+
+.content-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.content-right img{
+    width: 100%;
+    height: auto;
+   
+ }
+
+ .content-home{
+    display: flex;
+    flex-direction: row;
+ }
+
+
+ @media(max-width: 1500px){
+    
+.content-right img{
+    width: 110%;
+    height: auto;
+   
+ }
+ }
+
+
+@media(max-width: 700px){
+    .container-home{
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        height: 600px;
+    }
+
+    .img-home img{
+        margin-top: 58px;
+    }
+    .content-right img{
+        width: 200%;
+        height: auto;
+        margin-top: -500px;
+     }
+    
+
+    .h1-home{
+        margin-top: 0px;
+        font-size: 1rem;
+        width: 350px;
+        line-height: 40px;
+        text-align: center;
+        margin-left: 0;
+        margin: 100px auto;
+    }
+    .btn-home{
+        margin-top: 20px;
+        width: 350px;
+    }
+    .btn-home a{
+        font-size: 0.8rem;
+    }
+    .home-label label{
+        font-size: 1rem;
+    }
+    
+}
+
+
+
+
+
+
+
