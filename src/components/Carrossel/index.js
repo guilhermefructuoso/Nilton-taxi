@@ -36,8 +36,8 @@ function Carrossel() {
         
         <div className="central">
         <div className="container-carrossel">
-        <div className="h1-servico">
-                    <h1>Serviços</h1>
+        <div className="h1-destino">
+                    <h1>Destinos</h1>
                     <img src={star} alt="estrelas" width="140px" />
                 </div>
 

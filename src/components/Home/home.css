@@ -77,6 +77,12 @@
     display: flex;
     flex-direction: row;
  }
+ .whats {
+    position: fixed;
+    z-index: 100;
+    bottom: 40px;
+    right: 40px;
+}
 
 
  @media(max-width: 1500px){
@@ -96,11 +102,12 @@
         display: flex;
         align-items: center;
         height: 600px;
+        background-image: url(../../assets/home-img2.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
 
-    .img-home img{
-        margin-top: 58px;
-    }
+  
     .content-right img{
         width: 200%;
         height: auto;

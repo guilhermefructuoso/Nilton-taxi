@@ -1,8 +1,8 @@
 import React from 'react'
 import useMediaQuery from '@mui/material/useMediaQuery'
 import './footer.css'
-import logo from '../../assets/logo.svg'
-import icon from '../../assets/insta-icon.png'
+import logo2 from '../../assets/logo2.svg'
+import { BsInstagram } from "react-icons/bs"
 import line from '../../assets/line.png'
 import card from '../../assets/cartoes.png'
 import card1 from '../../assets/cartoes1.png'
@@ -11,10 +11,11 @@ import bark from '../../assets/barkout.svg'
 function Footer() {
     const isTablet = useMediaQuery('(max-width: 1280px)')
     return (
+        <section id='footer'>
         <div className="footer-content">
             <div className="footer-container">
                 <div className="logo-footer">
-                    <img src={logo} alt="Sistema Logo" />
+                    <img src={logo2} alt="Sistema Logo" />
                 </div>
                 <div className="h3-footer">
                     <div className="contact">
@@ -48,9 +49,10 @@ function Footer() {
                     <div className="insta">
                         <a
                             href="https://www.instagram.com/portoseguro.taxi/"
-                            target="-blank"
+                            target="-blank" 
                         >
-                            <img src={icon} alt="icone instagram" />
+                            
+                            <BsInstagram size={30} color="#000" />
                         </a>
                     </div>
                 </div>
@@ -81,12 +83,13 @@ function Footer() {
                             target="-blank"
                         >
                             {' '}
-                            <img src={bark} alt="Sistema Logo" />{' '}
+                            <img src={bark} alt="Sistema Logo"  />{' '}
                         </a>
                     </div>
                 </div>
             </div>
         </div>
+        </section>
     )
 }
 

@@ -4,8 +4,10 @@ import img from '../../assets/home-img.png'
 import img2 from '../../assets/home-img2.png'
 import car from '../../assets/image-car.png'
 import car2 from '../../assets/image-car2.png'
+import whats from "../../assets/whatsapp.svg";
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import useMediaQuery from '@mui/material/useMediaQuery'
+
 
 function Home() {
     const isMobile = useMediaQuery('(max-width:700px)')
@@ -29,7 +31,7 @@ function Home() {
                 </div>
                 {isMobile ? (
                     <div className="img-home">
-                        <img src={img2} alt="praia" />
+                        <img src={img2} alt="praia"/>
                     </div>
                 ) : (
                     <div className="img-home">
@@ -46,6 +48,14 @@ function Home() {
                     </div>
                 )}
             </div>
+            <div className="whats">
+        <a
+          href="http://wa.me/5511997447944?text=Olá, gostaria de fazer uma reserva!"
+          target="-blank"
+        >
+          <img src={whats} alt="botão whatsapp" width={70} height={70} />
+        </a>
+      </div>
         </section>
     )
 }

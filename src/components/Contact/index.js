@@ -1,9 +1,9 @@
 import { db } from '../../firebaseConnection'
 import { addDoc, collection } from 'firebase/firestore'
 import './contact.css'
+import star from '../../assets/estrelas.png'
 import { useForm } from 'react-hook-form'
 import { toast } from 'react-toastify'
-import bg from '../../assets/bg-contact.png'
 import 'react-toastify/dist/ReactToastify.css'
 
 function Contact() {
@@ -48,6 +48,10 @@ function Contact() {
 
  return (
  <section id='contact'>
+    <div className='h1-contact'>
+                <h1>Contato</h1>
+                <img src={star} alt='estrelas' width='140px'/>
+            </div>
          <div className="form-contact">
                         <div className="title-form">
                             <h3>Solicite seu orçamento!</h3>
@@ -94,9 +98,7 @@ function Contact() {
                         </form>
                         </div>
                 </div>
-                <div className="bg-contact">
-                    <img src={bg} alt="praia" />
-                </div>
+               
              
  </section>
  );
