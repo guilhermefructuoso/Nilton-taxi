@@ -21,6 +21,7 @@
     width: 811px;
     height: 332px;
     font-size: 1.5rem;
+    padding-right: 80px;
 }
 
 .h1-sobre{
@@ -72,6 +73,7 @@
         margin-top: 15px;
         margin-left: 5%;
     }
+    
 }
 
 @media(max-width: 700px){
@@ -96,7 +98,11 @@
     .p-sobre p{
         font-size: 0.7rem;
         margin-top: 25px;
-        width: 200px;
+        width: 200px;   
+    }
+
+    .p-sobre{
+        padding-right: 0;
     }
 
     .h1-sobre{

@@ -18,16 +18,16 @@ function Sobre() {
             <div className="content-left">
                 <div className='p-sobre'>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat
-                </p>
+                   Apaixonado pelo sul da Bahia Nilton Jorge resolveu transformar
+                   todo o amor pela região em um negócio, com isso compartilhando
+                   seus conhecimentos com atedimento de qualidade.
+                </p> 
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat
+                   Nossos serviços são efetuados com pontualidade, segurança, conforto,
+                   qualidade e wi-fi gratuito para que você possa aproveitar o melhor 
+                   da sua viagem. Contamos com SUV Renault Duster com ar condionado.
+                   Todos os requistos que correspodam aos critérios mais exigentes feitos
+                   pelos nossos clientes. 
                 </p>
                 </div>
                 <div className='icons'>

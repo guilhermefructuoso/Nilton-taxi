@@ -86,7 +86,7 @@ function Nav() {
                     <AnchorLink href="#sobre">Sobre nós</AnchorLink>
                   </div>
                   <div className="anchor-modal">
-                    <AnchorLink href="#servicos">Serviços</AnchorLink>
+                    <AnchorLink href="#servico">Serviços</AnchorLink>
                   </div>
 
                   <div className="anchor-modal">
@@ -107,7 +107,7 @@ function Nav() {
                 <AnchorLink href="#sobre">Sobre nós</AnchorLink>
               </div>
               <div className="anchor-modal">
-                    <AnchorLink href="#servicos">Serviços</AnchorLink>
+                    <AnchorLink href="#servico">Serviços</AnchorLink>
                   </div>
               <div className="anchor-modal">
                 <AnchorLink href="#destinos">Destinos</AnchorLink>

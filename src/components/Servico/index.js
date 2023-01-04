@@ -23,9 +23,9 @@ function Servico() {
                         </div>
                         <div className="p-servico">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt
+                                Transpote receptivo para garantir o conforto e a
+                                acessibilidade dos turistas que chegam em seu
+                                destino.
                             </p>
                         </div>
                     </div>
@@ -37,9 +37,9 @@ function Servico() {
                         </div>
                         <div className="p-servico">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt
+                                Translado com segurança para você chegar ao seu
+                                destino sem preocupações, com horário marcado no
+                                ato da contratação.
                             </p>
                         </div>
                     </div>
@@ -50,9 +50,9 @@ function Servico() {
                         </div>
                         <div className="p-servico">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt
+                                Nossas rotas abrangem todos os passeios e pontos
+                                turisticos da região de Porto Seguro, Arraial
+                                d'Ajuda, Trancoso e Caraíva.
                             </p>
                         </div>
                     </div>
@@ -63,9 +63,9 @@ function Servico() {
                         </div>
                         <div className="p-servico">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt
+                                Para você que tem um evento e precisa estar no
+                                horário, conte com a nossa pontualidade, serviço
+                                exclusivo e de qualidade.
                             </p>
                         </div>
                     </div>
@@ -76,9 +76,10 @@ function Servico() {
                         </div>
                         <div className="p-servico">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt
+                                Trabalhamos com serviço de taxi executivo, uma
+                                opção de baixo custo feito em nosso carro
+                                executivo, o valor é estabelecido no ato da
+                                reserva.
                             </p>
                         </div>
                     </div>

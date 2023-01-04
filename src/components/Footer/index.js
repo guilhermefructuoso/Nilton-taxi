@@ -1,5 +1,6 @@
 import React from 'react'
 import useMediaQuery from '@mui/material/useMediaQuery'
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import './footer.css'
 import logo2 from '../../assets/logo2.svg'
 import { BsInstagram } from "react-icons/bs"
@@ -15,7 +16,9 @@ function Footer() {
         <div className="footer-content">
             <div className="footer-container">
                 <div className="logo-footer">
+                <AnchorLink href="#nav">
                     <img src={logo2} alt="Sistema Logo" />
+                    </AnchorLink>
                 </div>
                 <div className="h3-footer">
                     <div className="contact">
@@ -48,7 +51,7 @@ function Footer() {
                     </div>
                     <div className="insta">
                         <a
-                            href="https://www.instagram.com/portoseguro.taxi/"
+                            href="https://www.instagram.com"
                             target="-blank" 
                         >
                             

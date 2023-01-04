@@ -1,13 +1,12 @@
 import React from 'react'
 import './home.css'
 import img from '../../assets/home-img.png'
-import img2 from '../../assets/home-img2.png'
+import img2 from '../../assets/transparent.png'
 import car from '../../assets/image-car.png'
 import car2 from '../../assets/image-car2.png'
-import whats from "../../assets/whatsapp.svg";
+import whats from '../../assets/whatsapp.svg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import useMediaQuery from '@mui/material/useMediaQuery'
-
 
 function Home() {
     const isMobile = useMediaQuery('(max-width:700px)')
@@ -22,16 +21,13 @@ function Home() {
                     <div className="home-label">
                         <label>Venha conhecer a Bahia com a gente!</label>
                     </div>
-
-                    <div className="btn-home">
-                        <AnchorLink href="#contact">
-                            Faça seu orçamento
-                        </AnchorLink>
-                    </div>
+                    <AnchorLink href="#contact">
+                        <div className="btn-home">Faça seu orçamento</div>
+                    </AnchorLink>
                 </div>
                 {isMobile ? (
                     <div className="img-home">
-                        <img src={img2} alt="praia"/>
+                        <img src={img2} alt="praia" />
                     </div>
                 ) : (
                     <div className="img-home">
@@ -49,13 +45,18 @@ function Home() {
                 )}
             </div>
             <div className="whats">
-        <a
-          href="http://wa.me/5511997447944?text=Olá, gostaria de fazer uma reserva!"
-          target="-blank"
-        >
-          <img src={whats} alt="botão whatsapp" width={70} height={70} />
-        </a>
-      </div>
+                <a
+                    href="http://wa.me/5573998264201?text=Olá, gostaria de fazer um orçamento!"
+                    target="-blank"
+                >
+                    <img
+                        src={whats}
+                        alt="botão whatsapp"
+                        width={70}
+                        height={70}
+                    />
+                </a>
+            </div>
         </section>
     )
 }

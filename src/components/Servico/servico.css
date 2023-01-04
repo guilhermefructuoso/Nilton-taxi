@@ -16,10 +16,8 @@
 }
 
 .container-servico h1 {
-    font-family: 'Oswald';
     font-size: 2rem;
     letter-spacing: 1px;
-    font-weight: 400;
     text-transform: uppercase;
 }
 
@@ -64,7 +62,6 @@
     flex-direction: row;
     justify-content: center;
     color: #000;
-    font-family: 'Roboto';
     letter-spacing: 1.2px;
     font-size: 0.8rem;
     align-items: center;
@@ -133,12 +130,7 @@
         width: 100px;
         margin-bottom: 10px;
     }
-    .text-sobre {
-        width: 90%;
-    }
-    .text-sobre p{
-        font-size: 1rem;
-    }
+   
     .icons-servico {
         padding: 25px;
         margin-top: -50px;
