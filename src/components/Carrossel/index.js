@@ -106,8 +106,8 @@ function Carrossel() {
                                 <h3>Coroa Vermelha</h3>
                                 <label>
                                     Coroa Vermelha é uma enseada no extremo sul
-                                    do estado da Bahia, localizada entre Santa
-                                    Cruz Cabrália e Porto Seguro.
+                                    do estado da Bahia, localizada em Santa
+                                    Cruz Cabrália.
                                 </label>
                             </div>
                         </div>

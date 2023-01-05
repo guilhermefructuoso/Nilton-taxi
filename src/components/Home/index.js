@@ -46,7 +46,7 @@ function Home() {
             </div>
             <div className="whats">
                 <a
-                    href="http://wa.me/5573998264201?text=Olá, gostaria de fazer um orçamento!"
+                    href="http://wa.me/5573998294201?text=Olá, gostaria de fazer um orçamento!"
                     target="-blank"
                 >
                     <img

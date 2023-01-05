@@ -30,17 +30,17 @@ function Footer() {
                             target="-blank"
                             alt="telefone"
                         >
-                            +55 73 99826-4201 
+                            +55 73 99829-4201 
                             
                         </a>
                       
                         <address>
                             <a
-                                href="mailto:portosegurotaxi1@gmail.com"
+                                href="mailto:niltonjorgevieira@gmail.com"
                                 alt="telefone"
                                 target="-blank"
                             >
-                                teste@gmail.com
+                                niltonjorgevieira@gmail.com
                             </a>
                         </address>
                     </div>
@@ -51,7 +51,7 @@ function Footer() {
                     </div>
                     <div className="insta">
                         <a
-                            href="https://www.instagram.com"
+                            href="https://www.instagram.com/niltonjorge23"
                             target="-blank" 
                         >
                             
