@@ -29,7 +29,7 @@ function Contact() {
         })
        
         await addDoc(collection(db, "mail"), {
-            to: 'portosegurotaxi1@gmail.com',
+            to: ['niltonjorgevieira@gmail.com'],
             message: {
               subject: 'Olá, gostaria de fazer um orçamento!',
               html: JSON.stringify(data)
@@ -65,7 +65,7 @@ function Contact() {
                                 {...register('name', { required: true })} 
                             />
                             <label>E-mail*</label>
-                            <input 
+                            <input type="email"
                                 className={errors.email ? 'red-border' : ''}
                                 placeholder="Digite seu e-mail..."
                                 {...register('email', { required: true })}
