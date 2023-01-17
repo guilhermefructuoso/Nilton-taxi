@@ -27,6 +27,7 @@
 
 .contact {
     color: #000;
+    font-family: 'Red Hat Display';
 }
 
 .email label {
@@ -42,7 +43,7 @@
 .email {
     padding-left: 20px;
     align-self: center;
-    font-family: 'Roboto';
+    font-family: 'Red Hat Display';
     letter-spacing: 1.2px;
 }
 
@@ -80,15 +81,15 @@
 }
 
 .contact{
-    font-family: 'Oswald';
+    font-family: 'Red Hat Display';
     letter-spacing: 1.2px;
 }
 .follow{
-    font-family: 'Oswald';
+    font-family: 'Red Hat Display';
     letter-spacing: 1.2px;
 }
 .h3-footer{
-    font-family: 'Oswald';
+    font-family: 'Red Hat Display';
     letter-spacing: 1.2px;
 }
 
@@ -97,7 +98,7 @@
     flex-direction: row;
     justify-content: center;
     color: #000;
-    font-family: 'Roboto';
+    font-family: 'Red Hat display';
     letter-spacing: 1.2px;
     font-size: 0.8rem;
     align-items: center;
