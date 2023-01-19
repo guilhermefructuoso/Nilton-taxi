@@ -23,7 +23,7 @@ function Servico() {
                         </div>
                         <div className="p-servico">
                             <p>
-                                Transpote receptivo para garantir o conforto e a
+                                Transporte receptivo para garantir o conforto e a
                                 acessibilidade dos turistas que chegam em seu
                                 destino.
                             </p>

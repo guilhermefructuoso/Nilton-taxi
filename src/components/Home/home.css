@@ -19,9 +19,9 @@
     position: absolute;
     margin: 300px auto;
     margin-left: 10%;
-    font-family: 'Red Hat Display';
-    font-weight: bolder;
-    font-size: 2rem;
+    font-family: 'Sofia Sans';
+    font-weight: 400;
+    font-size: 2.1rem;
     width: 530px;
 }
 
@@ -31,7 +31,8 @@
 }
 
 .home-label label{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
 }
 
 .btn-home{
