@@ -51,7 +51,7 @@ function Footer() {
                     </div>
                     <div className="insta">
                         <a
-                            href="https://www.instagram.com/niltonjorge23"
+                            href="https://www.instagram.com/niltonjorgetaxi"
                             target="-blank" 
                         >
                             
